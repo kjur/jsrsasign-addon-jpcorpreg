@@ -1,0 +1,48 @@
+{
+    "name": "jsrsasign-addon-jpcorpreg",
+    "version": "0.9.1",
+    "description": "jsrsasign addon for corporate registration certificate in Japan",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kjur/jsrsasign-addon-jpcorpreg.git"
+    },
+    "keywords": [
+        "jsrsasign",
+	"corporation",
+	"registration",
+	"japan",
+	"ministory",
+	"justice",
+        "oid",
+	"x509",
+	"extension",
+	"parser"
+    ],
+    "author": "Kenji Urushima",
+    "homepage": "https://github.com/kjur/jsrsasign-addon-jpcorpreg/",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kjur/jsrsasign-addon-jpcorpreg/issues"
+    },
+    "dependencies": {
+        "jsrsasign": ">=10.7.0"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    },
+    "funding": "https://github.com/kjur/jsrsasign#donations",
+    "badges": {
+        "list": [
+            "githubsponsors",
+            "crypto"
+        ],
+        "config": {
+            "githubSponsorsUsername": "kjur",
+            "cryptoURL": "https://github.com/kjur/jsrsasign#cryptocurrency"
+        }
+    }
+}
