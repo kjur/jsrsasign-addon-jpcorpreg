@@ -17,7 +17,7 @@ describe("JCertificatePolicy extension handler", function() {
 		    unotice: {
 			noticeref: {
 			    org: {type: "utf8", str: "法務省"},
-			    noticenum: [{hex: "01"}]
+			    noticenum: [1]
 			},
 			exptext: {
 			    type: "utf8",
